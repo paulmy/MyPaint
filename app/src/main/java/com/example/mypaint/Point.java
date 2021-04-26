@@ -1,5 +1,5 @@
 package com.example.mypaint;
-//Класс точка с цветом
+
 public class Point {
     float x;
     float y;
@@ -8,14 +8,6 @@ public class Point {
     public Point(float x, float y, int color) {
         this.x = x;
         this.y = y;
-        this.color = color;
-    }
-
-    public int getColor() {
-        return color;
-    }
-
-    public void setColor(int color) {
         this.color = color;
     }
 
@@ -33,5 +25,13 @@ public class Point {
 
     public void setY(float y) {
         this.y = y;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
     }
 }
