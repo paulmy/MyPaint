@@ -1,5 +1,5 @@
 package com.example.mypaint;
-
+//Класс точка с цветом
 public class Point {
     float x;
     float y;

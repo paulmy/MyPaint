@@ -80,6 +80,9 @@ public class MyDraw extends View {
             }
             break;*/
         }
+
+
+
         points.add(new Point(TouchX, TouchY, color));
         invalidate();
         return true;
